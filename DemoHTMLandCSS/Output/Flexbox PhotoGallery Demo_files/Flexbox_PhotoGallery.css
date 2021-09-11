@@ -1,0 +1,45 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+.cards img {
+    margin: 10px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+    max-width: 25vw;
+  }
+
+img
+    {
+      float: left;
+      margin: 10px;
+      padding-bottom: 5px;
+    }
+
+p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: left;
+    margin: 5px;
+    padding-left: 20px;
+}
+
+h1{
+    margin: 0;
+    padding: 10px;
+    color :maroon;
+    text-shadow : 3px 3px 1px black;
+    text-align: center;
+    font-size: 80px;
+    font-family: fantasy;
+}
+
+h2{
+    margin: 10px;
+    padding-left: 20px;
+    color :saddlebrown;
+    font-size: 40px;
+    text-align: left;
+}
